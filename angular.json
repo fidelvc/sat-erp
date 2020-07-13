@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "sat-erp"
+    }
+  },
+  "defaultProject": "sat-erp",
+  "cli": {
+    "analytics": false
+  }
 }
