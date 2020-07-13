@@ -1,18 +1,30 @@
 {
   "clientes": [{
-      "id": "1",
-      "nif": "1",
-      "nombreComercial": "Cliente 1"
+      "id": 1,
+      "nombre": "José Miguél Catalán"
     },
     {
-      "id": "2",
-      "nif": "2",
-      "nombreComercial": "Cliente 2"
+      "id": 2,
+      "nombre": "Patricia Llensa"
+    }
+  ],
+  "productos": [{
+      "id": 1,
+      "nombre": "Filtro IPL"
     },
     {
-      "id": "3",
-      "nif": "2",
-      "nombreComercial": "Cliente 3"
+      "id": 2,
+      "nombre": "Lámpara IPL"
+    }
+  ],
+  "proveedores": [{
+      "id": 1,
+      "nombre": "RS Amidata"
+    },
+    {
+      "id": 2,
+      "nombre": "Farnell"
     }
   ]
+
 }
