@@ -1,0 +1,3 @@
+{
+  "/productos/:numero": "/productos?matricula=:numero"
+}
