@@ -7,24 +7,6 @@
       "id": 2,
       "nombre": "Patricia Llensa"
     }
-  ],
-  "productos": [{
-      "id": 1,
-      "nombre": "Filtro IPL"
-    },
-    {
-      "id": 2,
-      "nombre": "Lámpara IPL"
-    }
-  ],
-  "proveedores": [{
-      "id": 1,
-      "nombre": "RS Amidata"
-    },
-    {
-      "id": 2,
-      "nombre": "Farnell"
-    }
   ]
 
 }

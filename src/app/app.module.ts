@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
 import { ClienteComponent } from './components/cliente/cliente.component';
 import { ProveedorComponent } from './components/proveedor/proveedor.component';
 import { ProductoComponent } from './components/producto/producto.component';
@@ -13,12 +14,10 @@ import { PresupuestoComponent } from './components/presupuesto/presupuesto.compo
     ClienteComponent,
     ProveedorComponent,
     ProductoComponent,
-    PresupuestoComponent
+    PresupuestoComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

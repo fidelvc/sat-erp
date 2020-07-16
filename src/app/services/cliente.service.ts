@@ -10,5 +10,12 @@ const URL = environment.URL;
   providedIn: 'root',
 })
 export class ClienteService {
-  constructor() {}
+  constructor(private http: HttpClient) {}
+
+  getAll(): Observable<Cliente[]> {
+    return this.http.get<Cliente[]>(URL);
+  }
+  create(cliente: Cliente): Observable<Cliente> {
+    return this.http.post<Cliente>(URL, cliente);
+  }
 }
